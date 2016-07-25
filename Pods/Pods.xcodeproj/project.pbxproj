@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		092B622C2AF575C45A0A39FAF432C2E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		0F799B69B40F989BCF38C7A1265FB2EE /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD87BD42EE798F07D39DDA94C2B23022 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		31FFEB9C0F23FEBD320CE96B0384C385 /* TPKeyboardAvoiding-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D3CC0E9AEC527F6812837E13DA1CC3 /* TPKeyboardAvoiding-dummy.m */; };
+		50A3EAECA0BC54376741F784F6D5B870 /* TPKeyboardAvoidingCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8801818D364A34B0DBE03E5429116032 /* TPKeyboardAvoidingCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		756A56C2A5C13FBCFEC996223AA1DA8F /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0925074C729BA029AA6B62CCEB3415BC /* TPKeyboardAvoidingScrollView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		77764B753C2D34E9E85CC3178383C778 /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 487ADECDB16D1C9E7E3A9D3F2DCC3950 /* TPKeyboardAvoidingTableView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9E07E9A97372B35BC4572B65C0DC2248 /* Pods-QR-Coder-Decoder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E434D749AA951E84EE9BA4CB8D9FD8C9 /* Pods-QR-Coder-Decoder-dummy.m */; };
+		AB471C1CBCD79967B8214FB48D409903 /* UIScrollView+TPKeyboardAvoidingAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B78932169AA0A1E97BBFF516EFBD33B /* UIScrollView+TPKeyboardAvoidingAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6B1B814F308A88D57A29DA50F5A0169 /* TPKeyboardAvoidingTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 42E1486C8559624DEDF3DECFFD8EBA8B /* TPKeyboardAvoidingTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7C314F762802BAFF2E3B1164B670DC9 /* TPKeyboardAvoidingScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 236A6A7BCDCBEF708470D515A87B4B59 /* TPKeyboardAvoidingScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F390BD2CCF8248E19CA9827FD79EC212 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		F9D4AC8B400B24C9B6DD684B0359FBA2 /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC354CCD5A470073A2FC16ABC806FE2 /* TPKeyboardAvoidingCollectionView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82AF8D791F97C67DAA107AA6D5702122 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77385F657FE7C2644E09C518785674FA;
+			remoteInfo = TPKeyboardAvoiding;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0925074C729BA029AA6B62CCEB3415BC /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPKeyboardAvoidingScrollView.m; path = TPKeyboardAvoiding/TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		19D3CC0E9AEC527F6812837E13DA1CC3 /* TPKeyboardAvoiding-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TPKeyboardAvoiding-dummy.m"; sourceTree = "<group>"; };
+		1B78932169AA0A1E97BBFF516EFBD33B /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+TPKeyboardAvoidingAdditions.h"; path = "TPKeyboardAvoiding/UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		1D8CE4F727CF9C65B3EBE2441B262667 /* libTPKeyboardAvoiding.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTPKeyboardAvoiding.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		236A6A7BCDCBEF708470D515A87B4B59 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPKeyboardAvoidingScrollView.h; path = TPKeyboardAvoiding/TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		3C8B86D91773609FB91A2CA483B41909 /* Pods-QR-Coder-Decoder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QR-Coder-Decoder.release.xcconfig"; sourceTree = "<group>"; };
+		42E1486C8559624DEDF3DECFFD8EBA8B /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPKeyboardAvoidingTableView.h; path = TPKeyboardAvoiding/TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		487ADECDB16D1C9E7E3A9D3F2DCC3950 /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPKeyboardAvoidingTableView.m; path = TPKeyboardAvoiding/TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		510737389627DD4C6F084CC15ACEAF19 /* Pods-QR-Coder-Decoder-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QR-Coder-Decoder-resources.sh"; sourceTree = "<group>"; };
+		5AA4810457B8F48EC789F336AE7EF2ED /* Pods-QR-Coder-Decoder-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QR-Coder-Decoder-acknowledgements.plist"; sourceTree = "<group>"; };
+		5EB3A7BA6103EBF8F85DDDD80414826A /* Pods-QR-Coder-Decoder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QR-Coder-Decoder.debug.xcconfig"; sourceTree = "<group>"; };
+		8801818D364A34B0DBE03E5429116032 /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPKeyboardAvoidingCollectionView.h; path = TPKeyboardAvoiding/TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B8A48C1C79A0B6C151C6BDD2305FFD9D /* TPKeyboardAvoiding-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPKeyboardAvoiding-prefix.pch"; sourceTree = "<group>"; };
+		C09E998580A259F28990922D3CB82B62 /* libPods-QR-Coder-Decoder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QR-Coder-Decoder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DFC354CCD5A470073A2FC16ABC806FE2 /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPKeyboardAvoidingCollectionView.m; path = TPKeyboardAvoiding/TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
+		E2E4C1B406758DD80F30F2A7CCA98182 /* Pods-QR-Coder-Decoder-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QR-Coder-Decoder-frameworks.sh"; sourceTree = "<group>"; };
+		E434D749AA951E84EE9BA4CB8D9FD8C9 /* Pods-QR-Coder-Decoder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QR-Coder-Decoder-dummy.m"; sourceTree = "<group>"; };
+		EE4A154D5D696EC7B23ECEF258193D56 /* TPKeyboardAvoiding.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TPKeyboardAvoiding.xcconfig; sourceTree = "<group>"; };
+		FD87BD42EE798F07D39DDA94C2B23022 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+TPKeyboardAvoidingAdditions.m"; path = "TPKeyboardAvoiding/UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		FF6F147B82AB71C93CF3849A3915A10B /* Pods-QR-Coder-Decoder-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QR-Coder-Decoder-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		410DE69EDB2729FF062F8DD64EEFE3D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F390BD2CCF8248E19CA9827FD79EC212 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42161B699354FA0446EE9A96E648667E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				092B622C2AF575C45A0A39FAF432C2E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00B0E31D5DE0F17733061CEC821472AC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED0F96AA2F9BB724E7BF4863D6B6A395 /* Pods-QR-Coder-Decoder */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		26B02AB5A3C4CA59476EC03FD556F377 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9604AF545EF9A89E39758C2FBBBD267C /* TPKeyboardAvoiding */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		53619166652804669FD4F611D7405784 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C09E998580A259F28990922D3CB82B62 /* libPods-QR-Coder-Decoder.a */,
+				1D8CE4F727CF9C65B3EBE2441B262667 /* libTPKeyboardAvoiding.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				26B02AB5A3C4CA59476EC03FD556F377 /* Pods */,
+				53619166652804669FD4F611D7405784 /* Products */,
+				00B0E31D5DE0F17733061CEC821472AC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9604AF545EF9A89E39758C2FBBBD267C /* TPKeyboardAvoiding */ = {
+			isa = PBXGroup;
+			children = (
+				8801818D364A34B0DBE03E5429116032 /* TPKeyboardAvoidingCollectionView.h */,
+				DFC354CCD5A470073A2FC16ABC806FE2 /* TPKeyboardAvoidingCollectionView.m */,
+				236A6A7BCDCBEF708470D515A87B4B59 /* TPKeyboardAvoidingScrollView.h */,
+				0925074C729BA029AA6B62CCEB3415BC /* TPKeyboardAvoidingScrollView.m */,
+				42E1486C8559624DEDF3DECFFD8EBA8B /* TPKeyboardAvoidingTableView.h */,
+				487ADECDB16D1C9E7E3A9D3F2DCC3950 /* TPKeyboardAvoidingTableView.m */,
+				1B78932169AA0A1E97BBFF516EFBD33B /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				FD87BD42EE798F07D39DDA94C2B23022 /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+				D57CC13D282603F31D60ABEBE7FCADDD /* Support Files */,
+			);
+			path = TPKeyboardAvoiding;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D57CC13D282603F31D60ABEBE7FCADDD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE4A154D5D696EC7B23ECEF258193D56 /* TPKeyboardAvoiding.xcconfig */,
+				19D3CC0E9AEC527F6812837E13DA1CC3 /* TPKeyboardAvoiding-dummy.m */,
+				B8A48C1C79A0B6C151C6BDD2305FFD9D /* TPKeyboardAvoiding-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TPKeyboardAvoiding";
+			sourceTree = "<group>";
+		};
+		ED0F96AA2F9BB724E7BF4863D6B6A395 /* Pods-QR-Coder-Decoder */ = {
+			isa = PBXGroup;
+			children = (
+				FF6F147B82AB71C93CF3849A3915A10B /* Pods-QR-Coder-Decoder-acknowledgements.markdown */,
+				5AA4810457B8F48EC789F336AE7EF2ED /* Pods-QR-Coder-Decoder-acknowledgements.plist */,
+				E434D749AA951E84EE9BA4CB8D9FD8C9 /* Pods-QR-Coder-Decoder-dummy.m */,
+				E2E4C1B406758DD80F30F2A7CCA98182 /* Pods-QR-Coder-Decoder-frameworks.sh */,
+				510737389627DD4C6F084CC15ACEAF19 /* Pods-QR-Coder-Decoder-resources.sh */,
+				5EB3A7BA6103EBF8F85DDDD80414826A /* Pods-QR-Coder-Decoder.debug.xcconfig */,
+				3C8B86D91773609FB91A2CA483B41909 /* Pods-QR-Coder-Decoder.release.xcconfig */,
+			);
+			name = "Pods-QR-Coder-Decoder";
+			path = "Target Support Files/Pods-QR-Coder-Decoder";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AF925646BDDB8DE3AE025B11F7C3A49B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A3EAECA0BC54376741F784F6D5B870 /* TPKeyboardAvoidingCollectionView.h in Headers */,
+				D7C314F762802BAFF2E3B1164B670DC9 /* TPKeyboardAvoidingScrollView.h in Headers */,
+				C6B1B814F308A88D57A29DA50F5A0169 /* TPKeyboardAvoidingTableView.h in Headers */,
+				AB471C1CBCD79967B8214FB48D409903 /* UIScrollView+TPKeyboardAvoidingAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		277E1FB535CED5580227E90B100419D7 /* Pods-QR-Coder-Decoder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC4B81BD28AA7F8CFD5B959264F8F268 /* Build configuration list for PBXNativeTarget "Pods-QR-Coder-Decoder" */;
+			buildPhases = (
+				40497651CA8DFB1B007D955C288F7C6A /* Sources */,
+				410DE69EDB2729FF062F8DD64EEFE3D9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08CE7978C0AF76079BA6DA97D9CAD436 /* PBXTargetDependency */,
+			);
+			name = "Pods-QR-Coder-Decoder";
+			productName = "Pods-QR-Coder-Decoder";
+			productReference = C09E998580A259F28990922D3CB82B62 /* libPods-QR-Coder-Decoder.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		77385F657FE7C2644E09C518785674FA /* TPKeyboardAvoiding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E0998586558D1F7F1A6B70DCF648FD8 /* Build configuration list for PBXNativeTarget "TPKeyboardAvoiding" */;
+			buildPhases = (
+				2B7FC1FD5FD3744E32C0032CECD4ABB1 /* Sources */,
+				42161B699354FA0446EE9A96E648667E /* Frameworks */,
+				AF925646BDDB8DE3AE025B11F7C3A49B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TPKeyboardAvoiding;
+			productName = TPKeyboardAvoiding;
+			productReference = 1D8CE4F727CF9C65B3EBE2441B262667 /* libTPKeyboardAvoiding.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 53619166652804669FD4F611D7405784 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				277E1FB535CED5580227E90B100419D7 /* Pods-QR-Coder-Decoder */,
+				77385F657FE7C2644E09C518785674FA /* TPKeyboardAvoiding */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B7FC1FD5FD3744E32C0032CECD4ABB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31FFEB9C0F23FEBD320CE96B0384C385 /* TPKeyboardAvoiding-dummy.m in Sources */,
+				F9D4AC8B400B24C9B6DD684B0359FBA2 /* TPKeyboardAvoidingCollectionView.m in Sources */,
+				756A56C2A5C13FBCFEC996223AA1DA8F /* TPKeyboardAvoidingScrollView.m in Sources */,
+				77764B753C2D34E9E85CC3178383C778 /* TPKeyboardAvoidingTableView.m in Sources */,
+				0F799B69B40F989BCF38C7A1265FB2EE /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40497651CA8DFB1B007D955C288F7C6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E07E9A97372B35BC4572B65C0DC2248 /* Pods-QR-Coder-Decoder-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08CE7978C0AF76079BA6DA97D9CAD436 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TPKeyboardAvoiding;
+			target = 77385F657FE7C2644E09C518785674FA /* TPKeyboardAvoiding */;
+			targetProxy = 82AF8D791F97C67DAA107AA6D5702122 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		61E9B7830761AC927CB9BEEA0775253F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C8B86D91773609FB91A2CA483B41909 /* Pods-QR-Coder-Decoder.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9365ED55FDF061401238A59260B1F574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE4A154D5D696EC7B23ECEF258193D56 /* TPKeyboardAvoiding.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TPKeyboardAvoiding/TPKeyboardAvoiding-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C503BED58C25CFCAE2F9AE873236E004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EB3A7BA6103EBF8F85DDDD80414826A /* Pods-QR-Coder-Decoder.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		ED113A569B23316D65FD925C349A552C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE4A154D5D696EC7B23ECEF258193D56 /* TPKeyboardAvoiding.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TPKeyboardAvoiding/TPKeyboardAvoiding-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E0998586558D1F7F1A6B70DCF648FD8 /* Build configuration list for PBXNativeTarget "TPKeyboardAvoiding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED113A569B23316D65FD925C349A552C /* Debug */,
+				9365ED55FDF061401238A59260B1F574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC4B81BD28AA7F8CFD5B959264F8F268 /* Build configuration list for PBXNativeTarget "Pods-QR-Coder-Decoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C503BED58C25CFCAE2F9AE873236E004 /* Debug */,
+				61E9B7830761AC927CB9BEEA0775253F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
