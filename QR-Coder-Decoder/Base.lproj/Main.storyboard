@@ -80,21 +80,56 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Decoder" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1pf-gu-aza">
                                 <rect key="frame" x="20" y="28" width="560" height="34"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="34" id="ME1-YN-3It"/>
+                                    <constraint firstAttribute="height" constant="34" id="XUp-5w-pZb"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hvS-DS-fFr">
+                                <rect key="frame" x="20" y="70" width="560" height="460"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Preview" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TsR-F7-lYG">
+                                <rect key="frame" x="20" y="70" width="560" height="460"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2UX-DH-RTG">
+                                <rect key="frame" x="214" y="485" width="172" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="nuL-Cn-FGF"/>
+                                    <constraint firstAttribute="width" constant="172" id="zT0-q6-FZa"/>
+                                </constraints>
+                                <state key="normal" title="Read Again"/>
+                                <connections>
+                                    <action selector="startStopReading:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="20z-iK-k0e"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="1pf-gu-aza" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" constant="8" id="P6u-xz-5U5"/>
-                            <constraint firstItem="1pf-gu-aza" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leadingMargin" id="eoW-qK-hhN"/>
-                            <constraint firstItem="1pf-gu-aza" firstAttribute="trailing" secondItem="QS5-Rx-YEW" secondAttribute="trailingMargin" id="vth-nj-42s"/>
+                            <constraint firstItem="1pf-gu-aza" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leadingMargin" id="B2s-Gf-UuJ"/>
+                            <constraint firstAttribute="trailing" secondItem="TsR-F7-lYG" secondAttribute="trailing" constant="20" id="ClX-g8-Ok9"/>
+                            <constraint firstItem="1pf-gu-aza" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" constant="8" id="ItK-4C-yPS"/>
+                            <constraint firstItem="1pf-gu-aza" firstAttribute="trailing" secondItem="QS5-Rx-YEW" secondAttribute="trailingMargin" id="J59-7Y-k6N"/>
+                            <constraint firstItem="TsR-F7-lYG" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leading" constant="20" id="ULg-19-3nG"/>
+                            <constraint firstItem="hvS-DS-fFr" firstAttribute="top" secondItem="1pf-gu-aza" secondAttribute="bottom" constant="8" id="W2w-r8-VfX"/>
+                            <constraint firstItem="hvS-DS-fFr" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leading" constant="20" id="Xj0-of-71N"/>
+                            <constraint firstItem="Djb-ko-YwX" firstAttribute="top" secondItem="hvS-DS-fFr" secondAttribute="bottom" constant="21" id="eZL-9O-a3a"/>
+                            <constraint firstAttribute="trailing" secondItem="hvS-DS-fFr" secondAttribute="trailing" constant="20" id="hvX-Qw-Td7"/>
+                            <constraint firstItem="Djb-ko-YwX" firstAttribute="top" secondItem="TsR-F7-lYG" secondAttribute="bottom" constant="21" id="nXO-mw-woW"/>
+                            <constraint firstItem="TsR-F7-lYG" firstAttribute="top" secondItem="1pf-gu-aza" secondAttribute="bottom" constant="8" id="ow9-X0-I8c"/>
+                            <constraint firstItem="2UX-DH-RTG" firstAttribute="centerX" secondItem="QS5-Rx-YEW" secondAttribute="centerX" id="q9J-YC-dxr"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Decoder" image="second" id="cPa-gy-q4n"/>
+                    <connections>
+                        <outlet property="bbitemStart" destination="2UX-DH-RTG" id="wol-sP-rdE"/>
+                        <outlet property="lblStatus" destination="TsR-F7-lYG" id="qXq-bc-hxn"/>
+                        <outlet property="viewPreview" destination="hvS-DS-fFr" id="sr5-GA-GpK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
