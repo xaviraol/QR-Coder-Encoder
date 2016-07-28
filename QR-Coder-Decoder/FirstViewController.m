@@ -7,9 +7,15 @@
 //
 
 #import "FirstViewController.h"
+#import "UIImage+MDQRCode.h"
+
 
 @interface FirstViewController ()
 
+@property (strong, nonatomic) IBOutlet UITextField *textField;
+@property (strong, nonatomic) IBOutlet UIImageView *qrImage;
+
+- (IBAction)codeTextAction:(id)sender;
 @end
 
 @implementation FirstViewController
@@ -24,4 +30,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)codeTextAction:(id)sender{
+    _qrImage.image = [UIImage mdQRCodeForString:_textField.text size:_qrImage.bounds.size.width fillColor:[UIColor darkGrayColor]];
+
+}
 @end
